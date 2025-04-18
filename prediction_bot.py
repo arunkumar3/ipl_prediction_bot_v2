@@ -28,12 +28,11 @@ import os
 nest_asyncio.apply()
 
 # === Configuration ===
-BOT_TOKEN = "7897221989:AAHZoD6r03Qj21v4za2Zha3XFwW5o5Hw4h8"
-GROUP_CHAT_ID = -4607914574
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+GROUP_CHAT_ID = int(os.environ.get("GROUP_CHAT_ID"))  # Important: Convert to int!
+PREDICTIONS_SHEET_ID = os.environ.get("PREDICTIONS_SHEET_ID")
+POLL_MAP_SHEET_ID = os.environ.get("POLL_MAP_SHEET_ID")
 SCHEDULE_CSV = "ipl_schedule.csv"
-PREDICTIONS_SHEET_ID = "1iCENqo8p3o3twurO7-CSs490C1xrhxK7cNIsUJ4ThBA"
-POLL_MAP_SHEET_ID = "1LogmznPifIPt7GQQPQ7UndHOup4Eo55ThraIUMeH2uE"
-CREDS_FILE = "ipl-predicitions-a24bb2e44d21.json"
 ADMIN_USER_IDS = [384743804]  # Add admin user IDs here
 
 # === Logging Setup ===
@@ -47,11 +46,13 @@ logger = logging.getLogger(__name__)
 def authorize_gspread():
     """Authorizes Google Sheets API client."""
     try:
-        creds_file = CREDS_FILE
-        if not os.path.exists(creds_file):
-            raise FileNotFoundError(f"Credentials file not found at {creds_file}")
-        creds = service_account.Credentials.from_service_account_file(
-            creds_file, scopes=["https://www.googleapis.com/auth/spreadsheets"]
+        creds_json = os.environ.get("GOOGLE_CREDENTIALS_JSON")  # Get from env variable
+        if not creds_json:
+            raise ValueError("GOOGLE_CREDENTIALS_JSON environment variable not set")
+
+        creds_data = json.loads(creds_json)  # Load JSON string
+        creds = service_account.Credentials.from_service_account_info(
+            creds_data, scopes=["https://www.googleapis.com/auth/spreadsheets"]
         )
         return gspread.authorize(creds)
     except Exception as e:
