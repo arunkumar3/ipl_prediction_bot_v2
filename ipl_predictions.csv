@@ -1,0 +1,22 @@
+MatchNo,Match,Username,Prediction,Correct
+1,KKR vs RCB,Arun,RCB,1.0
+1,KKR vs RCB,Sai,KKR,0.0
+1,KKR vs RCB,Abhi,KKR,0.0
+2,SRH vs RR,Arun,SRH,1.0
+2,SRH vs RR,Sai,SRH,1.0
+2,SRH vs RR,Abhi,RR,0.0
+3,CSK vs MI,Arun,MI,0.0
+3,CSK vs MI,Sai,CSK,1.0
+3,CSK vs MI,Abhi,MI,0.0
+4,DC vs LSG,Arun,DC,1.0
+4,DC vs LSG,Sai,LSG,0.0
+4,DC vs LSG,Abhi,DC,1.0
+5,GT vs PBKS,Arun,GT,0.0
+5,GT vs PBKS,Sai,PBKS,1.0
+5,GT vs PBKS,Abhi,GT,0.0
+6,RR vs KKR,Arun,RR,0.0
+6,RR vs KKR,Sai,RR,0.0
+6,RR vs KKR,Abhi,KKR,1.0
+7,SRH vs LSG,Arun,SRH,
+7,SRH vs LSG,Sai,SRH,
+7,SRH vs LSG,Abhi,LSG

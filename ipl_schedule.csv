@@ -1,0 +1,75 @@
+﻿MatchNo, Date, Day, Teams, MatchTime , Venue , PollStartTime , PollEndTime 
+1, 22 Mar 2025 , Saturday , KKR vs RCB , 7:30 PM , Kolkata , 12:00 AM , 7:30 PM 
+2, 23 Mar 2025 , Sunday , SRH vs RR , 3:30 PM , Hyderabad , 12:00 AM , 3:30 PM 
+3, 23 Mar 2025 , Sunday , CSK vs MI , 7:30 PM , Chennai , 12:00 AM , 7:30 PM 
+4, 24 Mar 2025 , Monday , DC vs LSG , 7:30 PM , Visakhapatnam , 12:17 AM , 7:30 PM 
+5, 25 Mar 2025 , Tuesday , GT vs PBKS , 7:30 PM , Ahmedabad , 12:00 AM , 7:30 PM 
+6, 26 Mar 2025 , Wednesday , RR vs KKR , 7:30 PM , Guwahati , 12:00 AM , 7:30 PM 
+7, 27 Mar 2025 , Thursday , SRH vs LSG , 7:30 PM , Hyderabad , 12:00 AM , 7:30 PM 
+8, 28 Mar 2025 , Friday , CSK vs RCB , 7:30 PM , Chennai , 12:00 AM , 7:30 PM 
+9, 29 Mar 2025 , Saturday , GT vs MI , 7:30 PM , Ahmedabad , 12:00 AM , 7:30 PM 
+10, 30 Mar 2025 , Sunday , DC vs SRH , 3:30 PM , Visakhapatnam , 12:00 AM , 3:30 PM 
+11, 30 Mar 2025 , Sunday , RR vs CSK , 7:30 PM , Guwahati , 12:00 AM , 7:30 PM 
+12, 31 Mar 2025 , Monday , MI vs KKR , 7:30 PM , Mumbai , 12:00 AM , 7:30 PM 
+13, 1 Apr 2025 , Tuesday , LSG vs PBKS , 7:30 PM , Lucknow , 12:00 AM , 7:30 PM 
+14, 2 Apr 2025 , Wednesday , RCB vs GT , 7:30 PM , Bengaluru , 12:00 AM , 7:30 PM 
+15, 3 Apr 2025 , Thursday , KKR vs SRH , 7:30 PM , Kolkata , 12:00 AM , 7:30 PM 
+16, 4 Apr 2025 , Friday , LSG vs MI , 7:30 PM , Lucknow , 12:00 AM , 7:30 PM 
+17, 5 Apr 2025 , Saturday , CSK vs DC , 3:30 PM , Chennai , 12:00 AM , 3:30 PM 
+18, 5 Apr 2025 , Saturday , PBKS vs RR , 7:30 PM , New Chandigarh , 12:00 AM , 7:30 PM 
+19, 6 Apr 2025 , Sunday , KKR vs LSG , 3:30 PM , Kolkata , 12:00 AM , 3:30 PM 
+20, 6 Apr 2025 , Sunday , SRH vs GT , 7:30 PM , Hyderabad , 12:00 AM , 7:30 PM 
+21, 7 Apr 2025 , Monday , MI vs RCB , 7:30 PM , Mumbai , 12:00 AM , 7:30 PM 
+22, 8 Apr 2025 , Tuesday , PBKS vs CSK , 7:30 PM , New Chandigarh , 12:00 AM , 7:30 PM 
+23, 9 Apr 2025 , Wednesday , GT vs RR , 7:30 PM , Ahmedabad , 12:00 AM , 7:30 PM 
+24, 10 Apr 2025 , Thursday , RCB vs DC , 7:30 PM , Bengaluru , 12:00 AM , 7:30 PM 
+25, 11 Apr 2025 , Friday , CSK vs KKR , 7:30 PM , Chennai , 12:00 AM , 7:30 PM 
+26, 12 Apr 2025 , Saturday , LSG vs GT , 3:30 PM , Lucknow , 12:00 AM , 3:30 PM 
+27, 12 Apr 2025 , Saturday , SRH vs PBKS , 7:30 PM , Hyderabad , 12:00 AM , 7:30 PM 
+28, 13 Apr 2025 , Sunday , RR vs RCB , 3:30 PM , Jaipur , 12:00 AM , 3:30 PM 
+29, 13 Apr 2025 , Sunday , DC vs MI , 7:30 PM , Delhi , 12:00 AM , 7:30 PM 
+30, 14 Apr 2025 , Monday , LSG vs CSK , 7:30 PM , Lucknow , 12:00 AM , 7:30 PM 
+31, 15 Apr 2025 , Tuesday , PBKS vs KKR , 7:30 PM , New Chandigarh , 12:00 AM , 7:30 PM 
+32, 16 Apr 2025 , Wednesday , DC vs RR , 7:30 PM , Delhi , 12:00 AM , 7:30 PM 
+33, 17 Apr 2025 , Thursday , MI vs SRH , 7:30 PM , Mumbai , 12:00 AM , 7:30 PM 
+34, 18 Apr 2025 , Friday , RCB vs PBKS , 7:30 PM , Bengaluru , 12:00 AM , 7:30 PM 
+35, 19 Apr 2025 , Saturday , GT vs DC , 3:30 PM , Ahmedabad , 12:00 AM , 3:30 PM 
+36, 19 Apr 2025 , Saturday , RR vs LSG , 7:30 PM , Jaipur , 12:00 AM , 7:30 PM 
+37, 20 Apr 2025 , Sunday , PBKS vs RCB , 3:30 PM , New Chandigarh , 12:00 AM , 3:30 PM 
+38, 20 Apr 2025 , Sunday , MI vs CSK , 7:30 PM , Mumbai , 12:00 AM , 7:30 PM 
+39, 21 Apr 2025 , Monday , KKR vs GT , 7:30 PM , Kolkata , 12:00 AM , 7:30 PM 
+40, 22 Apr 2025 , Tuesday , LSG vs DC , 7:30 PM , Lucknow , 12:00 AM , 7:30 PM 
+41, 23 Apr 2025 , Wednesday , SRH vs MI , 7:30 PM , Hyderabad , 12:00 AM , 7:30 PM 
+42, 24 Apr 2025 , Thursday , RCB vs RR , 7:30 PM , Bengaluru , 12:00 AM , 7:30 PM 
+43, 25 Apr 2025 , Friday , CSK vs SRH , 7:30 PM , Chennai , 12:00 AM , 7:30 PM 
+44, 26 Apr 2025 , Saturday , KKR vs PBKS , 7:30 PM , Kolkata , 12:00 AM , 7:30 PM 
+45, 27 Apr 2025 , Sunday , MI vs LSG , 3:30 PM , Mumbai , 12:00 AM , 3:30 PM 
+46, 27 Apr 2025 , Sunday , DC vs RCB , 7:30 PM , Delhi , 12:00 AM , 7:30 PM 
+47, 28 Apr 2025 , Monday , RR vs GT , 7:30 PM , Jaipur , 12:00 AM , 7:30 PM 
+48, 29 Apr 2025 , Tuesday , DC vs KKR , 7:30 PM , Delhi , 12:00 AM , 7:30 PM 
+49, 30 Apr 2025 , Wednesday , CSK vs PBKS , 7:30 PM , Chennai , 12:00 AM , 7:30 PM 
+50, 1 May 2025 , Thursday , RR vs MI , 7:30 PM , Jaipur , 12:00 AM , 7:30 PM 
+51, 2 May 2025 , Friday , GT vs SRH , 7:30 PM , Ahmedabad , 12:00 AM , 7:30 PM 
+52, 3 May 2025 , Saturday , RCB vs CSK , 7:30 PM , Bengaluru , 12:00 AM , 7:30 PM 
+53, 4 May 2025 , Sunday , KKR vs RR , 3:30 PM , Kolkata , 12:00 AM , 3:30 PM 
+54, 4 May 2025 , Sunday , PBKS vs LSG , 7:30 PM , Dharamsala , 12:00 AM , 7:30 PM 
+55, 5 May 2025 , Monday , SRH vs DC , 7:30 PM , Hyderabad , 12:00 AM , 7:30 PM 
+56, 6 May 2025 , Tuesday , MI vs GT , 7:30 PM , Mumbai , 12:00 AM , 7:30 PM 
+57, 7 May 2025 , Wednesday , KKR vs CSK , 7:30 PM , Kolkata , 12:00 AM , 7:30 PM 
+58, 8 May 2025 , Thursday , PBKS vs DC , 7:30 PM , Dharamsala , 12:00 AM , 7:30 PM 
+59, 9 May 2025 , Friday , LSG vs RCB , 7:30 PM , Lucknow , 12:00 AM , 7:30 PM 
+60, 10 May 2025 , Saturday , SRH vs KKR , 7:30 PM , Hyderabad , 12:00 AM , 7:30 PM 
+61, 11 May 2025 , Sunday , PBKS vs MI , 3:30 PM , Dharamsala , 12:00 AM , 3:30 PM 
+62, 11 May 2025 , Sunday , DC vs GT , 7:30 PM , Delhi , 12:00 AM , 7:30 PM 
+63, 12 May 2025 , Monday , CSK vs RR , 7:30 PM , Chennai , 12:00 AM , 7:30 PM 
+64, 13 May 2025 , Tuesday , RCB vs SRH , 7:30 PM , Bengaluru , 12:00 AM , 7:30 PM 
+65, 14 May 2025 , Wednesday , GT vs LSG , 7:30 PM , Ahmedabad , 12:00 AM , 7:30 PM 
+66, 15 May 2025 , Thursday , MI vs DC , 7:30 PM , Mumbai , 12:00 AM , 7:30 PM 
+67, 16 May 2025 , Friday , RR vs PBKS , 7:30 PM , Jaipur , 12:00 AM , 7:30 PM 
+68, 17 May 2025 , Saturday , RCB vs KKR , 7:30 PM , Bengaluru , 12:00 AM , 7:30 PM 
+69, 18 May 2025 , Sunday , GT vs CSK , 3:30 PM , Ahmedabad , 12:00 AM , 3:30 PM 
+70, 18 May 2025 , Sunday , LSG vs SRH , 7:30 PM , Lucknow , 12:00 AM , 7:30 PM 
+71, 20 May 2025 , Tuesday , Qualifier 1 , 7:30 PM , Hyderabad , 12:00 AM , 7:30 PM 
+72, 21 May 2025 , Wednesday , Eliminator , 7:30 PM , Hyderabad , 12:00 AM , 7:30 PM 
+73, 23 May 2025 , Friday , Qualifier 2 , 7:30 PM , Kolkata , 12:00 AM , 7:30 PM 
+74, 25 May 2025 , Sunday , Final , 7:30 PM , Kolkata , 12:00 AM , 7:30 PM 
