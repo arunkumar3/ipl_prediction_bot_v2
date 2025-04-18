@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pyo
+.env  # If you're using a .env file for environment variables
+ipl-predicitions-a24bb2e44d21.json # Ensure your credentials file is ignored!
