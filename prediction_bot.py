@@ -58,7 +58,7 @@ def authorize_gspread():
     except Exception as e:
         logger.error(f"Error authorizing Google Sheets: {e}")
         raise
-
+    
 def get_sheet(gc, sheet_id):
     """Retrieves a Google Sheet by its ID."""
     try:
