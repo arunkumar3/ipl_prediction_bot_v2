@@ -172,7 +172,7 @@ def run_bot(restart_count=0, consecutive_errors=0):
         return
 from prediction_bot import log_all_env_vars
 if __name__ == "__main__":
-    log_all_env_vars
+    log_all_env_vars()
     # Always make sure webhook is deleted before starting
     run_delete_webhook()
     
