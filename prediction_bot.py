@@ -41,6 +41,26 @@ logging.basicConfig(
 )
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
+def log_all_env_vars():
+    """Logs all relevant environment variables."""
+    logger.info("--- Environment Variables ---")
+    logger.info(f"BOT_TOKEN: {os.environ.get('BOT_TOKEN')}")
+    logger.info(f"GROUP_CHAT_ID: {os.environ.get('GROUP_CHAT_ID')}")
+    logger.info(f"PREDICTIONS_SHEET_ID: {os.environ.get('PREDICTIONS_SHEET_ID')}")
+    logger.info(f"POLL_MAP_SHEET_ID: {os.environ.get('POLL_MAP_SHEET_ID')}")
+    
+    # Log GOOGLE_CREDENTIALS_JSON carefully (it might be very long)
+    creds_json = os.environ.get('GOOGLE_CREDENTIALS_JSON')
+    if creds_json:
+        logger.info("GOOGLE_CREDENTIALS_JSON is set (length: " + str(len(creds_json)) + ")")
+        # If you want to see a snippet (for debugging ONLY, not in production!), 
+        # be very careful not to log the entire secret!
+        # logger.info("GOOGLE_CREDENTIALS_JSON (first 100 chars): " + creds_json[:100]) 
+    else:
+        logger.info("GOOGLE_CREDENTIALS_JSON is NOT set")
+
+    logger.info(f"ADMIN_USER_IDS: {os.environ.get('ADMIN_USER_IDS')}")
+    logger.info("--- End Environment Variables ---")
 
 # === Google Sheets Interaction ===
 def authorize_gspread():
@@ -810,6 +830,8 @@ def main() -> None:
 
     # Run the bot until the user presses Ctrl-C
     logger.info("Starting bot...")
+    # Log environment variables at the very start of main()
+    log_all_env_vars()
     try:
         # Run polling with appropriate settings
         application.run_polling(
